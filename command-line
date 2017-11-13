@@ -10,3 +10,5 @@ linux-command-line
 ldd是list, dynamic, dependencies的缩写， 意思是， 列出动态库依赖关系,如：ldd libcaffe.so | grep proto 列车当前文件库下的动态文件;
 
 
+ps aux|grep lk|grep python|awk '{print $2}'|xargs kill     Linux下显示系统进程的命令ps，PID进程ID,待解释........
+
