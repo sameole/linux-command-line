@@ -2,25 +2,22 @@
 linux-command-line
 1、查看ubuntu版本 sudo lsb_release -a
 
-
 压缩解压缩命令
-
 2、tar cjf - logs/ |split -b 1m - logs.tar.bz2. 将logs文件分包压缩成1m大小的切片文件
 tar -zcvf sdk.tar.gz ./sdk
 
-
-
 3、ldd是list, dynamic, dependencies的缩写， 意思是， 列出动态库依赖关系,如：ldd libcaffe.so | grep proto 列车当前文件库下的动态文件;
 
+4、sudo find / -name libjson_linux-gcc-4.6_libmt.so 查找so文件所在的路径
 
-4、
+5、
 ps aux|grep lk|grep python|awk '{print $2}'|xargs kill
 ps -ef | grep firefox   pgrep firefox
 ps -ef | grep firefox | awk '{print $2}' | xargs kill -9
 其中awk '{print $2}' 的作用就是打印（print）出第二列的内容。根据常规篇，可以知道ps输出的第二列正好是PID。就把进程相应的PID通过xargs传递给kill作
 参数，杀掉对应的进程。
 
-5、ln -s ×× ×× 软链接
+6、ln -s ×× ×× 软链接
 Linux符号连接的层数过多
 使用绝对路径就可以了
 第一，ln命令会保持每一处链接文件的同步性，也就是说，不论你改动了哪一处，其它的文件都会发生相同的变化；
@@ -35,6 +32,8 @@ Linux符号连接的层数过多
 另外一种连接称之为符号连接（Symbolic Link），也叫软连接。软链接文件有类似于Windows的快捷方式。它实际上是一个特殊的文件。在符号连接中，文件实际上是
 一个文本文件，其中包含的有另一文件的位置信息。
 
-find -L . -type l  查找当前目录下失效的软链接
+7、find -L . -type l  查找当前目录下失效的软链接
+
+8、scp file usr@ip:/home/user/path 拷贝本地文件到远程文件
 
 
