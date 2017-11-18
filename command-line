@@ -6,6 +6,7 @@ linux-command-line
 压缩解压缩命令
 
 2、tar cjf - logs/ |split -b 1m - logs.tar.bz2. 将logs文件分包压缩成1m大小的切片文件
+tar -zcvf sdk.tar.gz ./sdk
 
 
 
@@ -33,5 +34,7 @@ Linux符号连接的层数过多
 【软连接】
 另外一种连接称之为符号连接（Symbolic Link），也叫软连接。软链接文件有类似于Windows的快捷方式。它实际上是一个特殊的文件。在符号连接中，文件实际上是
 一个文本文件，其中包含的有另一文件的位置信息。
+
+find -L . -type l  查找当前目录下失效的软链接
 
 
