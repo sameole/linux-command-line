@@ -3,3 +3,6 @@ https://www.qbittorrent.org/download.php#StretchHome
 
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo apt-get update && sudo apt-get install qbittorrent
+
+
+sudo dpkg -i teamviewer_i386.deb  //安装deb文件
