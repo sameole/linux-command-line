@@ -1,0 +1,6 @@
+
+1、最好外部编译，也就是新建build目录，编译的中间文件都会在build目录内部
+mkdir build
+cd build
+cmake ..
+make -j16
