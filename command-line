@@ -37,4 +37,9 @@ Linux符号连接的层数过多
 
 8、scp file usr@ip:/home/user/path 拷贝本地文件到远程文件
 
+9、df -hl 查看磁盘空间
+
+
+
+
 
