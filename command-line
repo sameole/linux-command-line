@@ -41,7 +41,9 @@ Linux符号连接的层数过多
 
 10、查看驱动版本：cat /proc/driver/nvidia/version
 
-11、
+11、git 
+git branch -a
+git checkout branch_name
 
 
 
