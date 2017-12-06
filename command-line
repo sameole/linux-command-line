@@ -45,6 +45,10 @@ Linux符号连接的层数过多
 git branch -a
 git checkout branch_name
 
+12、gzip
+gzip *
+gzip -rv test6
+
 
 
 
