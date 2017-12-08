@@ -49,6 +49,18 @@ git checkout branch_name
 gzip *
 gzip -rv test6
 
+13、cat主要有三大功能：
+1.一次显示整个文件:cat filename
+2.从键盘创建一个文件:cat > filename 只能创建新文件,不能编辑已有文件.
+3.将几个文件合并为一个文件:cat file1 file2 > file
+
+14、awk
+
+ls -l /var/dbdump/dbbak/gamedb_09_09_11_05_00_00.tgz | awk '{print $9}' | awk -F / '{print $4}'
+ls -l /var/dbdump/dbbak/gamedb_09_09_11_05_00_00.tgz
+得到-rw-r--r--  1 root  wheel  154 Sep 11 05:00 /var/dbdump/dbbak/gamedb_09_09_11_05_00_00.tgz
+得到文件名的命令（不要路径）
+
 
 
 
