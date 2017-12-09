@@ -61,6 +61,10 @@ ls -l /var/dbdump/dbbak/gamedb_09_09_11_05_00_00.tgz
 得到-rw-r--r--  1 root  wheel  154 Sep 11 05:00 /var/dbdump/dbbak/gamedb_09_09_11_05_00_00.tgz
 得到文件名的命令（不要路径）
 
+15、
+free -m
+查看内存使用情况
+
 
 
 
