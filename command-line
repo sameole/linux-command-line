@@ -82,6 +82,11 @@ screen -r session-id or session-name
 screen -D  -r ＜session-id>
 Ctrl + A+F detach
 
+18、
+sudo nano /etc/ld.so.conf
+将lib目录加入
+sudo ldconfig
+
 
 
 
