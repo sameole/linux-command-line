@@ -87,7 +87,8 @@ sudo nano /etc/ld.so.conf
 将lib目录加入
 sudo ldconfig
 
-
+19、
+dpkg -i ×.deb
 
 
 
