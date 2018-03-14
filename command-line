@@ -89,6 +89,7 @@ sudo ldconfig
 
 19、
 dpkg -i ×.deb
+grep "" -rn
 
 
 
