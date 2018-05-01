@@ -90,6 +90,7 @@ sudo ldconfig
 19、
 dpkg -i ×.deb
 grep "" -rn
+grep -rn “teststring” ./*    查找字符串
 
 20、查看文件夹里文件的个数和大小
 https://www.cnblogs.com/xiaochaoyxc/p/6204350.html
