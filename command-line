@@ -75,7 +75,7 @@ ldconfig几个需要注意的地方
 4. ldconfig做的这些东西都与运行程序时有关，跟编译时一点关系都没有。编译的时候还是该加-L就得加，不要混淆了。 
 5. 总之，就是不管做了什么关于library的变动后，最好都ldconfig一下，不然会出现一些意想不到的结果。不会花太多的时间，但是会省很多的事。
 
-17、screen
+17、screen、tmux
 screen -ls
 screen -S session-name
 screen -r session-id or session-name
@@ -91,6 +91,13 @@ sudo ldconfig
 dpkg -i ×.deb
 grep "" -rn
 
+20、查看文件夹里文件的个数和大小
+https://www.cnblogs.com/xiaochaoyxc/p/6204350.html
+ls -l |grep "^-"|wc -l
+find ./company -type f | wc -l
+du -sh 查看当前文件夹大小
+du -sh * | sort -n 统计当前文件夹(目录)大小，并按文件大小排序
+du -sk filename 查看指定文件大小
 
 
 
