@@ -82,6 +82,13 @@ screen -r session-id or session-name
 screen -D  -r ＜session-id>
 Ctrl + A+F detach
 
+tmux new -s name
+tmux ls
+tmux a -t name
+tmux ctr+b "
+ctr+b %
+ctr+b d
+
 18、
 sudo nano /etc/ld.so.conf
 将lib目录加入
